@@ -4,7 +4,6 @@ import "./zombieattack.sol";
 import "./erc721.sol";
 import "./safemath.sol";
 
-/// TODO: Substitua isto com um descrição natspec
 contract ZombieOwnership is ZombieAttack, ERC721 {
 
   using SafeMath for uint256;
